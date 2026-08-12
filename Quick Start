@@ -13,3 +13,7 @@ pytest tests/gray_zone_tests.py
 
 # View full documentation
 cd docs/ && python -m http.server 8000
+
+
+Note: Some modules and scripts are currently private. 
+Full access will be available after the arXiv release (January 8, 2026).
