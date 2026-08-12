@@ -1,0 +1,24 @@
+User posts content
+    ↓
+[1 SECOND] RAPID SCAN
+  • Entropy analysis (certainty detection)
+  • RAG flagging (fact-check needed?)
+  • Cultural context identification
+  • Intent classification (joke/research/attack?)
+    ↓
+[0.5 SECOND] DECISION ENGINE
+  • Ethics Guard: Core principle violation? → BLOCK
+  • Risk Assessor: Hallucination risk? → REWRITE/ESCALATE
+  • Policy Orchestrator: Local law compliant? → FILTER
+    ↓
+[IMMEDIATE] OUTCOME
+  ├─ ALLOW (normal posting)
+  ├─ REWRITE (improved version suggested)
+  ├─ FILTER (flag + disclaimer added)
+  ├─ ESCALATE (human review queued)
+  └─ BLOCK (clear violation)
+    ↓
+[CONTINUOUS] FEEDBACK LOOP
+  • User satisfaction tracked
+  • RL algorithm learns
+  • System adapts for similar cases
