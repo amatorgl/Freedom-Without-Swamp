@@ -1,0 +1,19 @@
+EXAMPLE 1: Misinformation
+INPUT: "COVID vaccines cause permanent infertility (not proven)"
+OUTPUT: Hallucination Score 0.65 → REWRITE
+RESULT: ✅ Fact-checked and corrected
+
+EXAMPLE 2: Sarcasm vs. Toxicity  
+INPUT: "Oh brilliant, another government decision" (sarcastic)
+OUTPUT: Cultural Context Western detected → ALLOW
+RESULT: ✅ Not mistaken for toxicity
+
+EXAMPLE 3: Gray Zone
+INPUT: "People like you are ruining society"
+OUTPUT: Risk Score 0.55, Context needed → ESCALATE + REWRITE
+RESULT: ✅ Reviewed by human, kept with context
+
+EXAMPLE 4: Violence Claim
+INPUT: "Violence is sometimes justified in extreme cases" (theoretical)
+OUTPUT: Hallucination 0.5, Context Critical → REWRITE + FACT-CHECK
+RESULT: ✅ Corrected for factual accuracy
